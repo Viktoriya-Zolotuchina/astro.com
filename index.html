@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Астролог прогноз гороскоп</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MP79D26B');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP79D26B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- Звездный фон -->
+    <div class="stars-background" id="starsBackground"></div>
+
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-star me-2"></i>Астролог Виктория Золотухина
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Обо мне</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Сертификаты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section id="home" class="hero-section">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4 animate__animated animate__fadeInLeft">Профессиональный астролог</h1>
+                    <p class="lead mb-4 animate__animated animate__fadeInLeft animate__delay-1s">Раскройте  судьбу через знание звезд. Индивидуальные консультации и точные прогнозы.</p>
+                    <button class="btn btn-primary-custom btn-lg pulse animate__animated animate__fadeInUp animate__delay-2s" data-bs-toggle="modal" data-bs-target="#consultationModal">
+                        <i class="fas fa-phone me-2"></i>Записаться на консультацию
+                    </button>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="position-relative">
+                 <img src="img/DSC_8680.JPG" alt="Астролог Виктория Золотухина" class="profile-img rounded-circle floating">
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="lead">Я профессиональный астролог с более чем 3х-летним опытом работы. Япомогаю людям понять свои сильные стороны и найти свой жизненный путь через знание астрологии.</p>
+                    <p>Я прошла обучение в ведущих астрологических школах и имею сертификаты, подтверждающие мою квалификацию. За годы практики я помогла сотням людей найти ответы на важные вопросы о карьере, отношениях, здоровье и предназначении.</p>
+                    <p>Мой подход сочетает в себе традиционные астрологические методы с современными психологическими знаниями, что позволяет давать не только точные прогнозы, но и практические рекомендации для улучшения жизни.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card service-card">
+                        <div class="card-body p-4">
+                            <h4 class="card-title mb-4 text-center">Мои принципы работы:</h4>
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-star text-warning me-2"></i>Конфиденциальность и уважение к клиенту</li>
+                                <li class="mb-3"><i class="fas fa-star text-warning me-2"></i>Профессиональный и индивидуальный подход</li>
+                                <li class="mb-3"><i class="fas fa-star text-warning me-2"></i>Точность и глубина астрологического анализа</li>
+                                <li class="mb-3"><i class="fas fa-star text-warning me-2"></i>Практические рекомендации для улучшения жизни</li>
+                                <li class="mb-3"><i class="fas fa-star text-warning me-2"></i>Поддержка и сопровождение после консультации</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Мои услуги</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100 animate-on-scroll">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h4 class="card-title">Натальная карта</h4>
+                            <p class="card-text">Полный анализ вашей натальной карты с рекомендациями по развитию личности и реализации потенциала. Изучение характера, талантов и жизненного предназначения.</p>
+                            <button class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#consultationModal">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100 animate-on-scroll">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4 class="card-title">Синастрия</h4>
+                            <p class="card-text">Анализ совместимости с партнером для понимания сильных сторон и возможных сложностей в отношениях. Гармонизация взаимодействия и улучшение взаимопонимания.</p>
+                            <button class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#consultationModal">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100 animate-on-scroll">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h4 class="card-title">Ректификация</h4>
+                            <p class="card-text">Уточнение времени рождения для построения точной натальной карты. Особенно важно, если точное время рождения неизвестно или вызывает сомнения.</p>
+                            <button class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#consultationModal">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100 animate-on-scroll">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h4 class="card-title">Прогноз</h4>
+                            <p class="card-text">Составление персонального прогноза на интересующий период. Анализ благоприятных и сложных времен для планирования важных событий и принятия решений.</p>
+                            <button class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#consultationModal">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100 animate-on-scroll">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <h4 class="card-title">Хорар</h4>
+                            <p class="card-text">Ответы на конкретные вопросы с помощью хорарной астрологии. Быстрое и точное решение с использованием карты, построенной на момент задания вопроса.</p>
+                            <button class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#consultationModal">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card service-card h-100 animate-on-scroll">
+                        <div class="card-body text-center p-4">
+                            <div class="service-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <h4 class="card-title">Элективы</h4>
+                            <p class="card-text">Выбор наилучшего времени для важных событий: свадьбы, начала бизнеса, подписания контрактов. Максимальное использование благоприятных астрологических периодов.</p>
+                            <button class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#consultationModal">Записаться</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Сертификаты -->
+<section id="certificates" class="section">
+    <div class="container">
+        <h2 class="section-title">Мои сертификаты</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card certificate-card h-100 text-center">
+                    <div class="certificate-img-container">
+                        <img src="img/первый.jpg" class="card-img-top" alt="Сертификат школы астрологии">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Школа астрологии К.Дарагана</h5>
+                        <p class="card-text">Сертификат об окончании</p>
+                        <div class="certificate-badge">
+                            <i class="fas fa-award"></i> Базовый курс
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card certificate-card h-100 text-center">
+                    <div class="certificate-img-container">
+                        <img src="img/практическая.jpg" class="card-img-top" alt="Сертификат бакалавра астрологии">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Школа астрологии К.Дарагана</h5>
+                        <p class="card-text">Сертификат Бакалавра</p>
+                        <div class="certificate-badge">
+                            <i class="fas fa-graduation-cap"></i> Продвинутый уровень
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card certificate-card h-100 text-center">
+                    <div class="certificate-img-container">
+                        <img src="img/магистр.jpg" class="card-img-top" alt="Сертификат магистра астрологии">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Школа астрологии К.Дарагана</h5>
+                        <p class="card-text">Сертификат Магистра</p>
+                        <div class="certificate-badge">
+                            <i class="fas fa-star"></i> Высшая квалификация
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+    <!-- Контакты -->
+    <section id="contact" class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="lead mb-5">Готова помочь вам найти ответы на важные вопросы и составить персональный прогноз</p>
+                    <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                        <button class="btn btn-primary-custom btn-lg" data-bs-toggle="modal" data-bs-target="#consultationModal">
+                            <i class="fas fa-calendar-check me-2"></i>Записаться на консультацию
+                        </button>
+                        <a href="tel:+9528238861" class="btn btn-outline-light btn-lg">
+                            <i class="fas fa-phone me-2"></i>+7 (952) 8238861
+                        </a>
+                    </div>
+                    <div class="mt-5">
+                        <h5>Электронная почта:</h5>
+                        <p class="fs-5">vikantagil@yandex.ru</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p>&copy; 2025 Профессиональный астролог Виктория. Все права защищены.</p>
+        </div>
+    </footer>
+
+
+
+
+<!-- Модальное окно -->
+<div id="emailModal" class="modal">
+    <h3>Написать на vikantagil@yandex.ru</h3>
+    <form action="https://formsubmit.co/vikantagil@yandex.ru" method="POST">
+        <input type="text" name="name" placeholder="Ваше имя" required><br><br>
+        <input type="email" name="email" placeholder="Ваш email" required><br><br>
+        <textarea name="message" placeholder="Сообщение" required></textarea><br><br>
+        
+        <!-- Настройки FormSubmit -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Новое сообщение с сайта">
+        
+        <button type="submit">Отправить</button>
+        <button type="button" onclick="closeModal()">Закрыть</button>
+    </form>
+</div>
+
+<script>
+function openModal() {
+    document.getElementById('emailModal').classList.add('active');
+}
+function closeModal() {
+    document.getElementById('emailModal').classList.remove('active');
+}
+</script>
+
+</body>
+</html>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
